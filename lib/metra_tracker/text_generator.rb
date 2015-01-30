@@ -18,7 +18,7 @@ module MetraTracker
     end
 
     def arrival_time(time_ahead)
-      @output_string += " It is going to arrive at your departure station in #{time_ahead} minutes.\n"
+      @output_string += ". It is going to arrive at your departure station in #{time_ahead} minutes.\n"
     end
 
     def time_difference(departure, timestamp)
